@@ -1,0 +1,381 @@
+
+https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/learn/lecture/5833530#announcements
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp>dir
+ Volume in drive C is OS
+ Volume Serial Number is 5C07-E558
+
+ Directory of C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp
+
+27-12-2022  15:13    <DIR>          .
+27-12-2022  14:07    <DIR>          ..
+27-12-2022  14:55    <DIR>          .ipynb_checkpoints
+30-08-2018  11:54             1,015 00-Welcome to the Course.ipynb
+27-12-2022  15:19    <DIR>          01-Python-Crash-Course
+27-12-2022  15:13    <DIR>          02-Python-for-Data-Analysis-NumPy
+27-12-2022  15:13    <DIR>          03-Python-for-Data-Analysis-Pandas
+27-12-2022  15:13    <DIR>          04-Pandas-Exercises
+27-12-2022  15:13    <DIR>          05-Data-Visualization-with-Matplotlib
+27-12-2022  15:13    <DIR>          06-Data-Visualization-with-Seaborn
+27-12-2022  15:13    <DIR>          07-Pandas-Built-in-Data-Viz
+27-12-2022  15:13    <DIR>          08-Plotly-and-Cufflinks
+27-12-2022  15:13    <DIR>          09-Geographical-Plotting
+27-12-2022  15:13    <DIR>          10-Data-Capstone-Projects
+27-12-2022  15:13    <DIR>          11-Linear-Regression
+27-12-2022  15:13    <DIR>          13-Logistic-Regression
+27-12-2022  15:13    <DIR>          14-K-Nearest-Neighbors
+27-12-2022  15:13    <DIR>          15-Decision-Trees-and-Random-Forests
+27-12-2022  15:13    <DIR>          16-Support-Vector-Machines
+27-12-2022  15:13    <DIR>          17-K-Means-Clustering
+27-12-2022  15:13    <DIR>          18-Principal-Component-Analysis
+27-12-2022  15:13    <DIR>          19-Recommender-Systems
+27-12-2022  15:13    <DIR>          20-Natural-Language-Processing
+27-12-2022  15:13    <DIR>          21-Big-Data-and-Spark
+27-12-2022  15:13    <DIR>          22-Deep Learning
+27-12-2022  15:13    <DIR>          23-EXTRA-NOTES-SciPy
+30-08-2018  11:54             5,888 Pierian_Data_Logo.png
+30-08-2018  11:54               111 README.md
+27-12-2022  15:28    <DIR>          Resources
+               3 File(s)          7,014 bytes
+              26 Dir(s)  114,153,521,152 bytes free
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp>
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp>
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp>cd "My Environment"
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>conda create --name fluffy numpy
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 22.9.0
+  latest version: 22.11.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\Vicky\anaconda3\envs\fluffy
+
+  added / updated specs:
+    - numpy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2022.10.11 |       haa95532_0         125 KB
+    certifi-2022.12.7          |  py310haa95532_0         149 KB
+    libffi-3.4.2               |       hd77b12b_6         109 KB
+    mkl-service-2.4.0          |  py310h2bbff1b_0          48 KB
+    mkl_fft-1.3.1              |  py310ha0764ea_0         136 KB
+    mkl_random-1.2.2           |  py310h4ed8f06_0         221 KB
+    numpy-1.23.4               |  py310h60c9a35_0          11 KB
+    numpy-base-1.23.4          |  py310h04254f7_0         6.0 MB
+    openssl-1.1.1s             |       h2bbff1b_0         5.5 MB
+    pip-22.3.1                 |  py310haa95532_0         2.8 MB
+    python-3.10.8              |       h966fe2a_1        15.8 MB
+    setuptools-65.5.0          |  py310haa95532_0         1.2 MB
+    sqlite-3.40.0              |       h2bbff1b_0         891 KB
+    tzdata-2022g               |       h04d1e81_0         114 KB
+    wincertstore-0.2           |  py310haa95532_2          15 KB
+    xz-5.2.8                   |       h8cc25b3_0         205 KB
+    zlib-1.2.13                |       h8cc25b3_0         113 KB
+    ------------------------------------------------------------
+                                           Total:        33.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/win-64::blas-1.0-mkl None
+  bzip2              pkgs/main/win-64::bzip2-1.0.8-he774522_0 None
+  ca-certificates    pkgs/main/win-64::ca-certificates-2022.10.11-haa95532_0 None
+  certifi            pkgs/main/win-64::certifi-2022.12.7-py310haa95532_0 None
+  intel-openmp       pkgs/main/win-64::intel-openmp-2021.4.0-haa95532_3556 None
+  libffi             pkgs/main/win-64::libffi-3.4.2-hd77b12b_6 None
+  mkl                pkgs/main/win-64::mkl-2021.4.0-haa95532_640 None
+  mkl-service        pkgs/main/win-64::mkl-service-2.4.0-py310h2bbff1b_0 None
+  mkl_fft            pkgs/main/win-64::mkl_fft-1.3.1-py310ha0764ea_0 None
+  mkl_random         pkgs/main/win-64::mkl_random-1.2.2-py310h4ed8f06_0 None
+  numpy              pkgs/main/win-64::numpy-1.23.4-py310h60c9a35_0 None
+  numpy-base         pkgs/main/win-64::numpy-base-1.23.4-py310h04254f7_0 None
+  openssl            pkgs/main/win-64::openssl-1.1.1s-h2bbff1b_0 None
+  pip                pkgs/main/win-64::pip-22.3.1-py310haa95532_0 None
+  python             pkgs/main/win-64::python-3.10.8-h966fe2a_1 None
+  setuptools         pkgs/main/win-64::setuptools-65.5.0-py310haa95532_0 None
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1 None
+  sqlite             pkgs/main/win-64::sqlite-3.40.0-h2bbff1b_0 None
+  tk                 pkgs/main/win-64::tk-8.6.12-h2bbff1b_0 None
+  tzdata             pkgs/main/noarch::tzdata-2022g-h04d1e81_0 None
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1 None
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2 None
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0 None
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py310haa95532_2 None
+  xz                 pkgs/main/win-64::xz-5.2.8-h8cc25b3_0 None
+  zlib               pkgs/main/win-64::zlib-1.2.13-h8cc25b3_0 None
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+numpy-base-1.23.4    | 6.0 MB    | ### | 100%
+zlib-1.2.13          | 113 KB    | ### | 100%
+pip-22.3.1           | 2.8 MB    | ### | 100%
+openssl-1.1.1s       | 5.5 MB    | ### | 100%
+sqlite-3.40.0        | 891 KB    | ### | 100%
+tzdata-2022g         | 114 KB    | ### | 100%
+mkl-service-2.4.0    | 48 KB     | ### | 100%
+python-3.10.8        | 15.8 MB   | ### | 100%
+mkl_fft-1.3.1        | 136 KB    | ### | 100%
+mkl_random-1.2.2     | 221 KB    | ### | 100%
+numpy-1.23.4         | 11 KB     | ### | 100%
+ca-certificates-2022 | 125 KB    | ### | 100%
+xz-5.2.8             | 205 KB    | ### | 100%
+certifi-2022.12.7    | 149 KB    | ### | 100%
+wincertstore-0.2     | 15 KB     | ### | 100%
+setuptools-65.5.0    | 1.2 MB    | ### | 100%
+libffi-3.4.2         | 109 KB    | ### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate fluffy
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>python
+Python 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] on win32Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> import pandas as pd
+>>> exit()
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>activate fluffy
+
+(fluffy) C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>python
+Python 3.10.8 | packaged by conda-forge | (main, Nov 24 2022, 14:07:00) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> import pandas as pd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pandas'
+>>> exit()
+
+(fluffy) C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>conda install pandas
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 22.9.0
+  latest version: 22.11.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\Vicky\anaconda3\envs\fluffy
+
+  added / updated specs:
+    - pandas
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bottleneck-1.3.5           |  py310h9128911_0         106 KB
+    numexpr-2.8.4              |  py310hd213c9f_0         128 KB
+    packaging-22.0             |  py310haa95532_0          68 KB
+    pandas-1.5.2               |  py310h4ed8f06_0        10.5 MB
+    pytz-2022.7                |  py310haa95532_0         210 KB
+    ------------------------------------------------------------
+                                           Total:        11.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  bottleneck         pkgs/main/win-64::bottleneck-1.3.5-py310h9128911_0 None
+  numexpr            pkgs/main/win-64::numexpr-2.8.4-py310hd213c9f_0 None
+  packaging          pkgs/main/win-64::packaging-22.0-py310haa95532_0 None
+  pandas             pkgs/main/win-64::pandas-1.5.2-py310h4ed8f06_0 None
+  python-dateutil    pkgs/main/noarch::python-dateutil-2.8.2-pyhd3eb1b0_0 None
+  pytz               pkgs/main/win-64::pytz-2022.7-py310haa95532_0 None
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+numexpr-2.8.4        | 128 KB    | ### | 100%
+pandas-1.5.2         | 10.5 MB   | ### | 100%
+pytz-2022.7          | 210 KB    | ### | 100%
+packaging-22.0       | 68 KB     | ### | 100%
+bottleneck-1.3.5     | 106 KB    | ### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+Retrieving notices: ...working... done
+
+(fluffy) C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>python
+Python 3.10.8 | packaged by conda-forge | (main, Nov 24 2022, 14:07:00) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pandas as pd
+>>> import numpy as np
+>>> import math
+>>> import cv2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'cv2'
+>>> exit()
+
+(fluffy) C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>deactivate
+DeprecationWarning: 'deactivate' is deprecated. Use 'conda deactivate'.
+
+(fluffy) C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>conda.bat deactivate
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>conda create --name mypython3version python=3.5 numpy
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json):done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 22.9.0
+  latest version: 22.11.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\Vicky\anaconda3\envs\mypython3version
+
+  added / updated specs:
+    - numpy
+    - python=3.5
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
+    intel-openmp-2022.1.0      |    h59b6b97_3788         2.5 MB
+    mkl-2018.0.3               |
+ 1       112.6 MB
+    mkl_fft-1.0.6              |   py35hdbbee80_0         103 KB
+    mkl_random-1.0.1           |   py35h77b88f5_1         223 KB
+    numpy-1.15.2               |   py35ha559c80_0          47 KB
+    numpy-base-1.15.2          |   py35h8128ebf_0         3.2 MB
+    pip-10.0.1                 |           py35_0         1.6 MB
+    python-3.5.6               |       he025d50_0        14.5 MB
+    setuptools-40.2.0          |           py35_0         497 KB
+    tbb4py-2018.0.5            |   py35he980bc4_0          70 KB
+    wincertstore-0.2           |   py35hfebbdb8_0          14 KB
+    ------------------------------------------------------------
+                                           Total:       135.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/win-64::blas-1.0-mkl None
+  certifi            pkgs/main/noarch::certifi-2020.6.20-pyhd3eb1b0_3 None
+  icc_rt             pkgs/main/win-64::icc_rt-2022.1.0-h6049295_2 None
+  intel-openmp       pkgs/main/win-64::intel-openmp-2022.1.0-h59b6b97_3788 None
+  mkl                pkgs/main/win-64::mkl-2018.0.3-1 None
+  mkl_fft            pkgs/main/win-64::mkl_fft-1.0.6-py35hdbbee80_0 None
+  mkl_random         pkgs/main/win-64::mkl_random-1.0.1-py35h77b88f5_1 None
+  numpy              pkgs/main/win-64::numpy-1.15.2-py35ha559c80_0 None
+  numpy-base         pkgs/main/win-64::numpy-base-1.15.2-py35h8128ebf_0 None
+  pip                pkgs/main/win-64::pip-10.0.1-py35_0 None
+  python             pkgs/main/win-64::python-3.5.6-he025d50_0 None
+  setuptools         pkgs/main/win-64::setuptools-40.2.0-py35_0 None
+  tbb                pkgs/main/win-64::tbb-2021.6.0-h59b6b97_0 None
+  tbb4py             pkgs/main/win-64::tbb4py-2018.0.5-py35he980bc4_0 None
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1 None
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2 None
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0 None
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py35hfebbdb8_0 None
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+setuptools-40.2.0    | 497 KB    | ### | 100%
+certifi-2020.6.20    | 155 KB    | ### | 100%
+numpy-base-1.15.2    | 3.2 MB    | ### | 100%
+pip-10.0.1           | 1.6 MB    | ### | 100%
+intel-openmp-2022.1. | 2.5 MB    | ### | 100%
+numpy-1.15.2         | 47 KB     | ### | 100%
+mkl_fft-1.0.6        | 103 KB    | ### | 100%
+mkl-2018.0.3         | 112.6 MB  | ### | 100%
+tbb4py-2018.0.5      | 70 KB     | ### | 100%
+python-3.5.6         | 14.5 MB   | ### | 100%
+mkl_random-1.0.1     | 223 KB    | ### | 100%
+wincertstore-0.2     | 14 KB     | ### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate mypython3version
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>python
+Python 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] on win32Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>conda info --envs
+# conda environments:
+#
+base                     C:\Users\Vicky\anaconda3
+fluffy                   C:\Users\Vicky\anaconda3\envs\fluffy
+mypython3version         C:\Users\Vicky\anaconda3\envs\mypython3version
+
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>activate mypython3version
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>conda.bat activate mypython3version
+
+(mypython3version) C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>python
+Python 3.5.6 |Anaconda, Inc.| (default, Aug 26 2018, 16:05:27) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1/2
+0.5
+>>> quit()
+
+(mypython3version) C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>deactivate
+DeprecationWarning: 'deactivate' is deprecated. Use 'conda deactivate'.
+
+(mypython3version) C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>conda.bat deactivate
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>conda deactivate
+
+C:\Users\Vicky\Desktop\Repository\Python-for-Data-Science-and-Machine-Learning-Bootcamp\My Environment>
